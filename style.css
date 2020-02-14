@@ -49,6 +49,7 @@ table {
 body{
     width: 100%;
     font-family: Helvetica;
+    text-align: center;
 }
 h1{
     font-size: 5em;
@@ -58,6 +59,7 @@ h1{
 .container{
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 .card{
     width: 600px;
@@ -95,6 +97,7 @@ h1{
     margin: 20px;
     border: 2px solid black;
     border-radius: 100%;
+    float: left;
 }
 .img-comp{
     width: 150px;

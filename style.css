@@ -46,6 +46,75 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body{
+    width: 100%;
+    font-family: Helvetica;
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+    color: #acacac;
+    text-shadow: 2px 0 0 #acacac;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.card{
+    width: 600px;
+    margin: 25px auto;
+    box-sizing: border-box;
+}
+.player{
+    margin: 10px auto;
+    border-bottom: 1px dashed black;
+}
+.comp{
+    margin: 10px auto;
+    border-top: 1px dashed black;
+}
+.info{
+    width: 150px;
+    height: 75px;
+    border: 1px solid #acacac;
+    margin: 0px auto;
+    text-align: center;
+    color: #acacac;
+    line-height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.gajah,
+.orang,
+.semut{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 100%;
+    float: center;
+}
+.img-comp{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.gajah:hover,
+.orang:hover,
+.semut:hover,
+.active {
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px #acacac;
+}
+.bayang{
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px #acacac;
+}
+@media (min-width: 992px) {
 body{
     width: 100%;
     font-family: Helvetica;
@@ -97,7 +166,7 @@ h1{
     margin: 20px;
     border: 2px solid black;
     border-radius: 100%;
-    float: left;
+    float: center;
 }
 .img-comp{
     width: 150px;
@@ -116,4 +185,5 @@ h1{
 .bayang{
     cursor: pointer;
     box-shadow: 0 0 10px 5px #acacac;
+}
 }

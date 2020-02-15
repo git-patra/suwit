@@ -42,7 +42,6 @@ pick.forEach(function(i) {
     const pComp = getCompPick();
     const pPlayer = e.target.getAttribute("alt");
 
-    e.target.classList.toggle("bayang");
     hasil = rules(pComp, pPlayer);
 
     acak();

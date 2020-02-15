@@ -232,6 +232,14 @@ h2 {
     transform: scale(1.1);
 }
 
+.gajah:focus,
+.orang:focus,
+.semut:focus {
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px #acacac;
+    transform: scale(1.1);
+}
+
 .bayang {
     cursor: pointer;
     box-shadow: 0 0 10px 5px #acacac;
@@ -365,6 +373,14 @@ h2 {
     .active {
         cursor: pointer;
         box-shadow: 0 0 10px 5px #acacac;
+    }
+
+    .gajah:focus,
+    .orang:focus,
+    .semut:focus {
+        cursor: pointer;
+        box-shadow: 0 0 10px 5px #acacac;
+        transform: scale(1.1);
     }
 
     .bayang {

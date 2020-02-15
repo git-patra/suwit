@@ -9,7 +9,7 @@ function getCompPick() {
 function rules(comp, player) {
   if (comp == player) return "SERI!";
   if (player == "gajah") return comp == "orang" ? "MENANG!" : "KALAH!";
-  if (player == "semut") return comp == "gajah" ? "KALAH!" : "MENANG!";
+  if (player == "semut") return comp == "gajah" ? "MENANG!" : "KALAH!";
   if (player == "orang") return comp == "semut" ? "MENANG!" : "KALAH!";
 }
 
